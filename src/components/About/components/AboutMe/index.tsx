@@ -26,8 +26,7 @@ export function AboutMe() {
                     </div>
                     <a href={CV} download={true}>Download CV  
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
-                    </a>
-                    
+                    </a>                    
 
                 </div>
             </Resume>

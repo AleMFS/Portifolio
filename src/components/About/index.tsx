@@ -4,6 +4,8 @@ import LogoL from '../../assets/ASL.png'
 import LogoD from '../../assets/AS.png'
 import { useState } from "react";
 import { AboutMe } from "./components/AboutMe";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 interface ChangeTheme {
     themeToggler: () => void
@@ -24,7 +26,7 @@ export function About({ themeToggler }: ChangeTheme) {
                 <Navigation>
                     <nav>
                         <li>Sobre</li>
-                        <li>Habilidades</li>
+                        <li>Conhecimentos</li>
                         <li>Projetos</li>
                         <li>Contato</li>
                     </nav>
@@ -38,6 +40,7 @@ export function About({ themeToggler }: ChangeTheme) {
                 </Navigation>
             </HeaderContainer>
             <AboutMe />
+            <FontAwesomeIcon icon={faChevronDown} ></FontAwesomeIcon>
         </AboutContainer>
     )
 }

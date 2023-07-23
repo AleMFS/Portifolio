@@ -4,6 +4,7 @@ import { useState } from "react"
 import { darkTheme } from "./styles/themes/dark"
 import { GlobalStyle } from "./styles/global"
 import { About } from "./components/About"
+import { Skills } from "./components/Skills"
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyle />
       <About themeToggler={themeToggler}/>
+      <Skills />
+
       
     </ThemeProvider>
   )

@@ -81,6 +81,7 @@ export const Resume = styled.div`
 
         a:hover{
             background: ${(props) => props.theme.primary};
+            
         }
     }  
 

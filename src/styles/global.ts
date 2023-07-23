@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
         background: ${(props) => props.theme.background};
         color: ${(props) => props.theme.primary};
         font-family: 'Jost', sans-serif;
-        transition: .5s;
+        transition: .1s;
         padding: 2rem 3rem;
         
     }
