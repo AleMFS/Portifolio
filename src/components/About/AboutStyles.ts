@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 export const AboutContainer = styled.header`
     display: flex;
     flex-direction: column;
+    padding: 2rem 3rem;
 
 `
 

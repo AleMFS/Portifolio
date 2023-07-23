@@ -18,7 +18,7 @@ function App() {
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyle />
       <About themeToggler={themeToggler}/>
-      <Skills />
+      <Skills theme={theme}/>
 
       
     </ThemeProvider>

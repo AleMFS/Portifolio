@@ -12,7 +12,7 @@ interface toolsProps {
 export function Skill({ skill }: DataProps) {
     return (
         <SkillContainer>
-            <img src={skill.img} alt="" />
+            <img src={skill.img} alt="" className={skill.name}/>
             <p>{skill.name}</p>
         </SkillContainer>
     )

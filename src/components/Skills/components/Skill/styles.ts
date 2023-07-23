@@ -1,6 +1,7 @@
 import { styled } from "styled-components";
 
 export const SkillContainer = styled.div`
+    width: 100%;
 
     display: flex;
     flex-direction: row;
@@ -13,7 +14,9 @@ export const SkillContainer = styled.div`
     border-radius: 25px;
     padding: 1rem;
     transition: box-shadow .3s;
+    transition: background-color .7s;
     font-weight: bold;
+    
     
 
     img{
@@ -22,6 +25,11 @@ export const SkillContainer = styled.div`
     &:hover{
         
         box-shadow: 0px 0px 7px 4px rgba(50,146,248,0.73);
+        background: #f1ece5;
+        color: black;
     }
+
+    
+    
 
 `
