@@ -32,6 +32,7 @@ export function About({ themeToggler }: ChangeTheme) {
         setActiveTab(sectionId);
       }
     };
+    console.log(activeTab)
 
     
 
