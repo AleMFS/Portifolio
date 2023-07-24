@@ -25,11 +25,11 @@ export function About({ themeToggler }: ChangeTheme) {
 
     // Função para rolar suavemente para a seção de destino
     const smoothScrollToSection = (sectionId:string) => {
-        setActiveTab(sectionId);
+        
       const section = document.getElementById(sectionId);
       if (section) {
         section.scrollIntoView({ behavior: 'smooth' });
-        
+        setActiveTab(sectionId);
       }
     };
 
@@ -41,10 +41,10 @@ export function About({ themeToggler }: ChangeTheme) {
                 <img src={theme === 'dark' ? LogoD : LogoL} alt="" />
                 <Navigation>
                     <nav>
-                        <li onClick={() => smoothScrollToSection('Sobre')}>Sobre</li>
-                        <li onClick={() => smoothScrollToSection('Conhecimentos')}>Conhecimentos</li>
-                        <li onClick={() => smoothScrollToSection('Projetos')}>Projetos</li>
-                        <li onClick={() => smoothScrollToSection('Contato')}>Contato</li>
+                        <li onClick={() => smoothScrollToSection("Sobre")}>Sobre</li>
+                        <li onClick={() => smoothScrollToSection("Conhecimentos")}>Conhecimentos</li>
+                        <li onClick={() => smoothScrollToSection("Projetos")}>Projetos</li>
+                        <li onClick={() => smoothScrollToSection("Contato")}>Contato</li>
                     </nav>
 
                     {theme === 'dark' ?
