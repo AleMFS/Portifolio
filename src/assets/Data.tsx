@@ -1,5 +1,4 @@
 
-
 export const tools = [
     {
         id: 0,
@@ -27,8 +26,8 @@ export const tools = [
         img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
     },
     {
-        id:9,
-        name:"Tailwind",
+        id: 9,
+        name: "Tailwind",
         img: "https://static-00.iconduck.com/assets.00/tailwind-css-icon-512x307-1v56l8ed.png"
     },
     {
@@ -51,4 +50,34 @@ export const tools = [
         name: 'MySQL',
         img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'
     },
+]
+
+export const projects = [
+    {
+        id: 0,
+        name: "Project LOL",
+        about: "Eu criei o projeto 'ProjectLOL' usando a API da Riot Games. O objetivo do projeto era criar uma página web para jogadores de League of Legends, onde eles pudessem obter informações detalhadas sobre seus personagens favoritos, como Lore e skins dos personagens .",
+        img: "../assets/LOL.png",
+        tag: "REACT",
+        repository: "https://github.com/AleMFS/LeagueOfLegends",
+        link: "https://projectlol.netlify.app/"
+    
+    },
+    /*{
+        id: 1,
+        name: "Top Ventos",
+        about: "Eu criei um projeto chamado TopVentos no qual ele simula uma loja de ventiladores de algumas marcas com suas informações , pensei em fazer esse projeto devido ao calor que está fazendo nesse verão",
+        img: ""
+    },
+    {
+        id: 2,
+        name: "Coffee Delivery",
+        about: ""
+    },
+    {
+        id: 3 ,
+        name: "DT" ,
+        about: "" 
+    },*/
+
 ]

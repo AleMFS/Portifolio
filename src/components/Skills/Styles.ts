@@ -1,7 +1,11 @@
 import { styled } from "styled-components";
 import SkillImage from "../../assets/skill.jpg"
 
-export const SkillsContainer = styled.section`
+interface props {
+    isconditiontrue: any
+}
+
+export const SkillsContainer = styled.section<props>`
     position: relative;
     display: flex;
     justify-content: center;
@@ -15,22 +19,27 @@ export const SkillsContainer = styled.section`
     background-repeat: no-repeat;
     background-attachment: fixed;
    
-    
+    ${props =>
+        props.isconditiontrue === "true" && ` 
     &::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 0;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 0;
+        }
+    
+    `
     }
-
+    
+    
     
     
     h2{
-        
+        margin-top: 2rem;
         font-size: 3rem;
         
     }

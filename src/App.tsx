@@ -5,6 +5,7 @@ import { darkTheme } from "./styles/themes/dark"
 import { GlobalStyle } from "./styles/global"
 import { About } from "./components/About"
 import { Skills } from "./components/Skills"
+import { Project } from "./components/Projects"
 
 function App() {
 
@@ -19,7 +20,8 @@ function App() {
       <GlobalStyle />
       <About themeToggler={themeToggler}/>
       <Skills theme={theme}/>
-
+      <Project />
+     
       
     </ThemeProvider>
   )
