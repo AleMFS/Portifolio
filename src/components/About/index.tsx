@@ -7,6 +7,7 @@ import { AboutMe } from "./components/AboutMe";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
+
 interface ChangeTheme {
     themeToggler: () => void
 }
@@ -19,16 +20,31 @@ export function About({ themeToggler }: ChangeTheme) {
         theme === "light" ? setTheme("dark") : setTheme("light");
     }
 
+    // mudar sessão
+    const [activeTab, setActiveTab] = useState('Sobre');
+
+    // Função para rolar suavemente para a seção de destino
+    const smoothScrollToSection = (sectionId:string) => {
+        setActiveTab(sectionId);
+      const section = document.getElementById(sectionId);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+        
+      }
+    };
+
+    
+
     return (
         <AboutContainer>
             <HeaderContainer>
                 <img src={theme === 'dark' ? LogoD : LogoL} alt="" />
                 <Navigation>
                     <nav>
-                        <li>Sobre</li>
-                        <li>Conhecimentos</li>
-                        <li>Projetos</li>
-                        <li>Contato</li>
+                        <li onClick={() => smoothScrollToSection('Sobre')}>Sobre</li>
+                        <li onClick={() => smoothScrollToSection('Conhecimentos')}>Conhecimentos</li>
+                        <li onClick={() => smoothScrollToSection('Projetos')}>Projetos</li>
+                        <li onClick={() => smoothScrollToSection('Contato')}>Contato</li>
                     </nav>
 
                     {theme === 'dark' ?
@@ -40,7 +56,12 @@ export function About({ themeToggler }: ChangeTheme) {
                 </Navigation>
             </HeaderContainer>
             <AboutMe />
-            <FontAwesomeIcon icon={faChevronDown} ></FontAwesomeIcon>
+                        
+            <FontAwesomeIcon icon={faChevronDown} size="xl" className="arrow" onClick={() => smoothScrollToSection('Conhecimentos')}></FontAwesomeIcon>        
+           
+            
+            
+            
         </AboutContainer>
     )
 }

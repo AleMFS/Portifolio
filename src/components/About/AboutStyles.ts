@@ -4,6 +4,28 @@ export const AboutContainer = styled.header`
     display: flex;
     flex-direction: column;
     padding: 2rem 3rem;
+    
+
+    .arrow{
+        font-size: 3rem;
+        animation-name: arrows;        
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+        
+    }
+    @keyframes arrows {
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(15px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+
+    
 
 `
 
@@ -13,11 +35,12 @@ export const HeaderContainer = styled.header`
     align-items: center;
     justify-content: space-between;
     
+      
+    
 
     img{
-        width: 5.5rem;
-        
-    }
+        width: 5.5rem;        
+    }    
 
  
 
@@ -28,6 +51,8 @@ export const Navigation = styled.div`
 display: flex;
 align-items: center;
 gap: 6rem;
+
+
 
 nav{
         display: flex;

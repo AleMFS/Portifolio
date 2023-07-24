@@ -6,6 +6,12 @@ export const ProjectContainer = styled.section`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 3rem 0;
+
+    h2{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
 
     
     .Cards{
@@ -27,12 +33,7 @@ export const ProjectContainer = styled.section`
         z-index:1 ;
        
     }
-    .container:hover{
-        
-        transition: box-shadow 0.5s;
-        transition-delay: 0.8s;
-        box-shadow: 0px 0px 7px 4px rgba(50,146,248,0.73);
-    }
+    
 
     .container::before{
         content: "";

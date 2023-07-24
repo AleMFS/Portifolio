@@ -14,7 +14,7 @@ export function Skills({theme}:themeProps) {
     
     
     return (
-        <SkillsContainer  style={{backgroundImage:`url(${imagem})`}} isconditiontrue={color}>
+        <SkillsContainer  style={{backgroundImage:`url(${imagem})`}} isconditiontrue={color} id="Conhecimentos">
             <h2>Meus conhecimentos</h2>
             <h3>Habilidades / Ferramentas</h3>
             <div>

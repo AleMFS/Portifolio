@@ -3,6 +3,7 @@ import LOL from "../../../../assets/LOL.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faGithub  } from '@fortawesome/free-brands-svg-icons';
+import balls from "../../../../assets/shape-2.png"
 
 export function ProjectCard() {
     return (
@@ -24,7 +25,9 @@ export function ProjectCard() {
                 <FontAwesomeIcon icon={faGithub} ></FontAwesomeIcon>
                 </a>
 
-            <div></div>
+            <div>
+                <img src={balls} alt="" className="ballsD"/>
+            </div>
 
 
         </ProjectCardContainer>
