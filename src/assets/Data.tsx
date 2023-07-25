@@ -2,6 +2,9 @@
 import LOL from '../assets/projects/LOL.png'
 import TopVentos from '../assets/projects/TopVentos.png'
 import Coffee from '../assets/projects/Coffee.png'
+import Timer from '../assets/projects/Timer.png'
+import blog from '../assets/projects/GitHubBlog.gif'
+import Todo from '../assets/projects/ToDo.png'
 
 
 export const tools = [
@@ -88,6 +91,33 @@ export const projects = [
         repository: "https://github.com/AleMFS/Coffee-Delivery" ,
         link: "https://coffee-deliveryamf.netlify.app/"
     },
+    {
+        id: 3,
+        name: "Pomodoro Timer",
+        about:"Um cronomêtro feito com Reactjs, para auxiliar com estudos usando o metodo mundialmente conhecido como Pomodoro.",
+        img: Timer,
+        tag:"REACT",
+        repository: "https://github.com/AleMFS/Pomodoro-Timer",
+        link:"https://github.com/AleMFS/Pomodoro-Timer"
+
+    },
+    {
+        id:4,
+        name: "Github Blog",
+        about: "O Github Blog é uma aplicação web que tem como objetivo mostrar visualmente com um design e layout mais bem elaborado os dados do criador deste aplicação, além das issues presentes neste mesmo repositório no Github, permitindo também a pesquisa por issues específicas.",
+        img:blog,
+        tag:"React/Axios",
+        repository: "https://github.com/AleMFS/Github-Blog",
+        link: "https://github.com/AleMFS/Github-Blog"
+    },
+    {
+        id:5,
+        name:"Todo List",
+        about: "Criação de lista de tarefas completamente resposiva, com botão delete e concluida.",
+        img:Todo,
+        repository: "https://github.com/AleMFS/Projeto-To-do",    
+        link:"todotarefas.netlify.app"
+    }
   
     
 ]
