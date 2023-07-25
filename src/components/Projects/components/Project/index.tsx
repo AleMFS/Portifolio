@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faGithub  } from '@fortawesome/free-brands-svg-icons';
 import balls from "../../../../assets/shape-2.png"
-import teste from "../../../../assets/projects/LOL.png"
+
 
 
 
