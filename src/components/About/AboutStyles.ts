@@ -3,7 +3,9 @@ import { styled } from "styled-components";
 export const AboutContainer = styled.header`
     display: flex;
     flex-direction: column;
-    padding: 2rem 3rem;
+    
+    position: relative;
+    
     
 
     .arrow{
@@ -24,6 +26,17 @@ export const AboutContainer = styled.header`
             transform: translateY(0px);
         }
     }
+    
+
+    .scroll-header {
+    position: fixed;
+    background-color: rgba(0,0,0,0.7);
+    animation: header_animate 0.8s var(--transition) 0s forwards;
+    z-index: 999;
+    color: white;
+}
+
+   
 
     
 
@@ -34,6 +47,8 @@ export const HeaderContainer = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 2rem 3rem;
+    transition: all 0.5s;
     
       
     
@@ -66,6 +81,7 @@ nav{
         overflow: hidden;
         transition: color 0.3s ease-in-out, border-width 0.3s ease-in-out;
         padding-bottom: 0.5rem;
+        
         }
 
     li::before {
@@ -78,14 +94,21 @@ nav{
         transition: width 0.3s ease-in-out;
         }
 
-    li:hover {
+       li:hover {
         color: ${(props) => props.theme.secondary};
         }
-
-    li:hover::before {
+        li:hover::before {
         width: 100%;
         left: 0;
-        }     
+        } 
+        .active::before{
+            width: 100%;
+            left: 0;
+            
+        }   
+        
+
+     
     }
     
     svg:hover{

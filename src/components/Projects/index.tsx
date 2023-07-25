@@ -1,6 +1,7 @@
 
 import { ProjectCard } from "./components/Project";
 import { ProjectContainer } from "./styles";
+import {projects} from '../../assets/Data'
 
 export function Project() {
     return (
@@ -8,15 +9,16 @@ export function Project() {
             <h2>Projetos</h2>
 
             <div className="Cards">
-                <div className="container">
-                    <ProjectCard />
-                </div>
-                <div className="container">
-                    <ProjectCard />
-                </div>
-                <div className="container">
-                    <ProjectCard />
-                </div>
+
+                {projects.map((project) =>(
+                    <div className="container" key={project.id}>
+                        <ProjectCard project={project}/>
+                    </div>
+                ))}
+            
+                
+                
+               
             </div>
         </ProjectContainer>
     )

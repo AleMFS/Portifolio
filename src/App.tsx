@@ -20,7 +20,9 @@ function App() {
       <GlobalStyle />
       <About themeToggler={themeToggler}/>
       <Skills theme={theme}/>
+      
       <Project />
+     
      
       
     </ThemeProvider>

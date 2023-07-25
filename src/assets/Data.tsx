@@ -1,4 +1,9 @@
 
+import LOL from '../assets/projects/LOL.png'
+import TopVentos from '../assets/projects/TopVentos.png'
+import Coffee from '../assets/projects/Coffee.png'
+
+
 export const tools = [
     {
         id: 0,
@@ -57,27 +62,32 @@ export const projects = [
         id: 0,
         name: "Project LOL",
         about: "Eu criei o projeto 'ProjectLOL' usando a API da Riot Games. O objetivo do projeto era criar uma página web para jogadores de League of Legends, onde eles pudessem obter informações detalhadas sobre seus personagens favoritos, como Lore e skins dos personagens .",
-        img: "../assets/LOL.png",
+        img: LOL,
         tag: "REACT",
         repository: "https://github.com/AleMFS/LeagueOfLegends",
         link: "https://projectlol.netlify.app/"
     
     },
-    /*{
+    {
         id: 1,
         name: "Top Ventos",
         about: "Eu criei um projeto chamado TopVentos no qual ele simula uma loja de ventiladores de algumas marcas com suas informações , pensei em fazer esse projeto devido ao calor que está fazendo nesse verão",
-        img: ""
+        img: TopVentos,
+        tag:"REACT",
+        repository: "https://github.com/AleMFS/TopVentos",
+        link:"https://top-ventos.netlify.app/"
     },
+
+    
     {
         id: 2,
         name: "Coffee Delivery",
-        about: ""
+        about: "Coffee Delivery simula uma E-commerce focado em Cafés, ele conta com carrinho onde você pode adicionar e remover a sua escolha, formulário pde endereço para entrega, ele é totalmente responsivo e conta com filtros",
+        img:  Coffee,
+        tag: "REACT",
+        repository: "https://github.com/AleMFS/Coffee-Delivery" ,
+        link: "https://coffee-deliveryamf.netlify.app/"
     },
-    {
-        id: 3 ,
-        name: "DT" ,
-        about: "" 
-    },*/
-
+  
+    
 ]

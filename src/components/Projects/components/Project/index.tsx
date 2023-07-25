@@ -1,26 +1,42 @@
 import { ProjectCardContainer } from "./styles";
-import LOL from "../../../../assets/LOL.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faGithub  } from '@fortawesome/free-brands-svg-icons';
 import balls from "../../../../assets/shape-2.png"
+import teste from "../../../../assets/projects/LOL.png"
 
-export function ProjectCard() {
+
+
+interface project{
+    project: projectProps
+}
+
+interface projectProps {
+    id:number;
+    name:String;
+    about:string;
+    img:string;
+    tag:string;
+    repository:string
+    link:string
+
+}
+
+export function ProjectCard({project}:project) {
+    
     return (
         <ProjectCardContainer>
-            <img src={LOL} alt="" />
-            <span>REACT</span>
-            <h4>Project LOL</h4>
-            <p className="teste"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. et, consectetur adipisicing elit. 
-            </p>
+            <img src={project.img} alt="" />
+            <span>{project.tag}</span>
+            <h4>{project.name}</h4>
+            <p className="teste" > {project.about} </p>
 
-            <a href="">
+            <a href={project.link}>
                 Link
                 <FontAwesomeIcon icon={faArrowRight} ></FontAwesomeIcon>
 
             </a>
-            <a href="">
+            <a href={project.repository}>
                 Ver repositório
                 <FontAwesomeIcon icon={faGithub} ></FontAwesomeIcon>
                 </a>

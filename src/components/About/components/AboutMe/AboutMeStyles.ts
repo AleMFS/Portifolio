@@ -2,8 +2,51 @@ import { styled } from "styled-components";
 
 export const AboutMeContainer = styled.section`
     display: flex;
-    flex-direction: column;
+
     margin-top: 5rem;
+    margin-left: 3rem;
+
+    .perfil {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .photo{
+        width: 590px;
+        position: relative;
+    }
+    .orb{
+        width: 60px;
+        position: absolute;
+        
+        top: 85px;
+        right: 164px;
+
+
+        
+        font-size: 3rem;
+        animation-name: arrows;        
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        filter: drop-shadow( 0px 0px 8px 4px) ${(props) => props.theme.secondary};
+        
+        
+    }
+    @keyframes arrows {
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-35px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+
+    
 
 `
 

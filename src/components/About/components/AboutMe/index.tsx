@@ -1,8 +1,11 @@
 import { AboutMeContainer, Resume } from "./AboutMeStyles";
-import CV from '../../../../assets/CV.pdf'
+import CV from '../../../../assets/AlexandreCV.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import Teste from '../../../../assets/teste.png'
+import Orbe from "../../../../assets/orbe2.png"
+
 
 export function AboutMe() {
 
@@ -30,6 +33,11 @@ export function AboutMe() {
 
                 </div>
             </Resume>
+            <div className="perfil">
+            <img src={Teste} alt="" className="photo"/>
+            <img src={Orbe} alt="" className="orb"/>
+            </div>
+            
         </AboutMeContainer>
     )
 }

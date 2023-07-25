@@ -49,6 +49,13 @@ export const ProjectCardContainer = styled.div`
     p{
         font-weight: 400;
         margin-bottom: 1.125rem;
+        display: -webkit-box;
+    -webkit-line-clamp: 4; /* Defina o número máximo de linhas desejado */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 6.5em;
+        
     }
 
     a{
