@@ -1,28 +1,35 @@
 import { styled } from "styled-components";
 
 export const AboutMeContainer = styled.section`
+    
     display: flex;
+    justify-content: space-between;
+
+    
 
     margin-top: 5rem;
     margin-left: 3rem;
 
     .perfil {
+        
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        
+        text-align: end;
+
+
+       
     }
     .photo{
-        width: 590px;
+        width: 36.875rem;
         position: relative;
     }
     .orb{
         width: 60px;
-        position: absolute;
-        
+        position: absolute;        
         top: 85px;
-        right: 164px;
+        right: 157px;
 
 
         
@@ -33,7 +40,20 @@ export const AboutMeContainer = styled.section`
         filter: drop-shadow( 0px 0px 8px 4px) ${(props) => props.theme.secondary};
         
         
+        
     }
+
+    @media (min-width: 1500px) {
+
+        .perfil{
+            margin-right: 12%;
+
+        }
+        .photo{
+            width:41.75rem;
+        }
+        }
+        
     @keyframes arrows {
         0%{
             transform: translateY(0px);
