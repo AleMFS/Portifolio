@@ -115,6 +115,7 @@ export const projects = [
         name:"Todo List",
         about: "Criação de lista de tarefas completamente resposiva, com botão delete e concluida.",
         img:Todo,
+        tag: "REACT",
         repository: "https://github.com/AleMFS/Projeto-To-do",    
         link:"todotarefas.netlify.app"
     }
