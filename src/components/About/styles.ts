@@ -54,7 +54,8 @@ export const HeaderContainer = styled.header`
     
 
     img{
-        width: 5.5rem;        
+        width: 5.5rem;     
+        cursor   : pointer;
     }    
 
  

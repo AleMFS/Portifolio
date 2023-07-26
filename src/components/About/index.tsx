@@ -1,4 +1,4 @@
-import { AboutContainer, HeaderContainer, Navigation } from "./AboutStyles";
+import { AboutContainer, HeaderContainer, Navigation } from "./styles";
 import { Sun, Moon } from '@phosphor-icons/react'
 import LogoL from '../../assets/ASL.png'
 import LogoD from '../../assets/AS.png'
@@ -35,6 +35,16 @@ export function About({ themeToggler }: ChangeTheme) {
           setActiveTab(sectionId);
         }
       };
+
+      function scrollToTop() {
+        // Verifica se o método 'scrollTo' é suportado pelo navegador
+        if ('scrollTo' in window) {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          // Caso o método 'scrollTo' não seja suportado, faz um scroll instantâneo
+          document.documentElement.scrollTop = 0;
+        }
+      }
 
     useEffect(() => {
         window.addEventListener("scroll", changeNav);
@@ -74,7 +84,7 @@ export function About({ themeToggler }: ChangeTheme) {
     return (
         <AboutContainer id="Sobre">
             <HeaderContainer  className={`${scrollNav ? "scroll-header" : ""}`}>
-                <img src={theme === 'dark' ?  LogoD : scrollNav ? LogoD : LogoL} alt="" />
+                <img src={theme === 'dark' ?  LogoD : scrollNav ? LogoD : LogoL} alt="" onClick={() => scrollToTop()}/>
                 <Navigation>
                     <nav>
                         <li onClick={() => smoothScrollToSection("Sobre")} className={activeTab === "Sobre" ? 'active': ''} >Sobre</li>

@@ -6,6 +6,7 @@ import { GlobalStyle } from "./styles/global"
 import { About } from "./components/About"
 import { Skills } from "./components/Skills"
 import { Project } from "./components/Projects"
+import { Footer } from "./components/Footer"
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Skills theme={theme}/>
       
       <Project />
+      <Footer />  
      
      
       
