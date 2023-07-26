@@ -29,7 +29,7 @@ export function About({ themeToggler }: ChangeTheme) {
         const section = document.getElementById(sectionId);
         if (section) {
           // Ajuste a posição de rolagem para parar um pouco acima da seção
-          const yOffset = -200; // Defina o valor que desejar para ajustar a posição de parada
+          const yOffset = -200; 
           const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
           window.scrollTo({ top: y, behavior: 'smooth' });
           setActiveTab(sectionId);
@@ -59,7 +59,7 @@ export function About({ themeToggler }: ChangeTheme) {
         } else {
           setScrollNav(false);
         }
-        updateActiveTabOnScroll(); // Adicionamos a chamada para a função de atualização da navegação ativa ao rolar.
+        updateActiveTabOnScroll(); // Adiciona a chamada para a função de atualização da navegação ativa ao rolar.
       };
     
       // Função para atualizar o item de menu ativo ao rolar a página

@@ -31,19 +31,5 @@ export const FooterContainer = styled.footer`
         }
     
 
-    /*.footerZone{
-            width: 100%;
-            margin: 0 auto;
-            border-bottom: 3px solid black ;
-            margin-bottom: 2rem;
-            position: relative;
-            overflow: hidden;
-            
-        img{
-            width: 200px;
-            position: absolute;
-            margin-top: -50px;
-            
-        }
-    }*/
+   
 `
