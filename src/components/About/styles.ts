@@ -8,7 +8,7 @@ export const AboutContainer = styled.header`
     
     
 
-    .arrow{
+   /* .arrow{
         font-size: 3rem;
         animation-name: arrows;        
         animation-iteration-count: infinite;
@@ -25,7 +25,7 @@ export const AboutContainer = styled.header`
         100%{
             transform: translateY(0px);
         }
-    }
+    }*/
     
 
     .scroll-header {
@@ -45,7 +45,8 @@ export const AboutContainer = styled.header`
 
     .arrow{
         font-size: 1.5rem;
-        margin-top: 5rem;
+        margin-top: 1rem;
+        
     }
 
 }

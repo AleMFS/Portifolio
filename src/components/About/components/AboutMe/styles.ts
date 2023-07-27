@@ -32,6 +32,8 @@ export const AboutMeContainer = styled.section`
 
         
         font-size: 3rem;
+       
+       
         animation-name: arrows;        
         animation-iteration-count: infinite;
         animation-duration: 5s;
