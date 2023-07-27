@@ -34,10 +34,7 @@ export const SkillsContainer = styled.section<props>`
     
     `
     }
-    
-    
-    
-    
+      
     h2{
         margin-top: 2rem;
         font-size: 3rem;
@@ -51,17 +48,31 @@ export const SkillsContainer = styled.section<props>`
         display: grid;
         grid-template-columns: repeat(5,1fr);
         justify-content: space-around;
-        padding: 4rem;
+        
         
         
        
         gap: 3rem;
-        margin-top: 3rem;
+        margin: 3rem 0 4rem;
 
         //background: ${(props) => props.theme.primary};
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(15px);
    
+    }
+
+    // Media Queries
+
+    @media (max-width:800px) {
+        
+        h2{
+            font-size: 2.5rem;
+        }
+
+        >div{
+            grid-template-columns: repeat(2,1fr);
+            gap: 3.5rem;
+        }
     }
     
     

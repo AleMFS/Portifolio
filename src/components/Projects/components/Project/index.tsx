@@ -31,12 +31,12 @@ export function ProjectCard({project}:project) {
             <h4>{project.name}</h4>
             <p className="teste" > {project.about} </p>
 
-            <a href={project.link}>
+            <a href={project.link} target="_blank">
                 Link
                 <FontAwesomeIcon icon={faArrowRight} ></FontAwesomeIcon>
 
             </a>
-            <a href={project.repository}>
+            <a href={project.repository} target="_blank">
                 Ver repositório
                 <FontAwesomeIcon icon={faGithub} ></FontAwesomeIcon>
                 </a>

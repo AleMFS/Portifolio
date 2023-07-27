@@ -9,8 +9,8 @@ export const ProjectCardContainer = styled.div`
     color: ${(props) => props.theme.primary};
    
     padding: 1rem ;
-    max-width: 350px;
-    height: 500px;
+    max-width: 21.875rem;
+    height:31.25rem;
     font-weight: bold;
     border-radius: 20px;
     background-color: ${(props) => props.theme.bgcard};

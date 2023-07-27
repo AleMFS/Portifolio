@@ -68,7 +68,7 @@ export const projects = [
         img: LOL,
         tag: "REACT",
         repository: "https://github.com/AleMFS/LeagueOfLegends",
-        link: "https://projectlol.netlify.app/"
+        link: "https://projectlolalemfs.vercel.app/"
     
     },
     {
@@ -78,7 +78,7 @@ export const projects = [
         img: TopVentos,
         tag:"REACT",
         repository: "https://github.com/AleMFS/TopVentos",
-        link:"https://top-ventos.netlify.app/"
+        link:"https://topventos.vercel.app/"
     },
 
     
@@ -89,7 +89,7 @@ export const projects = [
         img:  Coffee,
         tag: "REACT",
         repository: "https://github.com/AleMFS/Coffee-Delivery" ,
-        link: "https://coffee-deliveryamf.netlify.app/"
+        link: "https://coffee-deliveryalemfs.vercel.app/"
     },
     {
         id: 3,
@@ -108,16 +108,16 @@ export const projects = [
         img:blog,
         tag:"React/Axios",
         repository: "https://github.com/AleMFS/Github-Blog",
-        link: "https://github.com/AleMFS/Github-Blog"
+        link: "https://github-blogalemfs.vercel.app/"
     },
     {
         id:5,
         name:"Todo List",
-        about: "Criação de lista de tarefas completamente resposiva, com botão delete e concluida.",
+        about: "Criação de lista de tarefas completamente resposiva, com botão delete e concluida. usando alguns conceitos do react como useState e componentes",
         img:Todo,
         tag: "REACT",
         repository: "https://github.com/AleMFS/Projeto-To-do",    
-        link:"todotarefas.netlify.app"
+        link:"https://projeto-to-do-omega.vercel.app/"
     }
   
     

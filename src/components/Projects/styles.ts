@@ -21,8 +21,8 @@ export const ProjectContainer = styled.section`
     }
 
     .container{
-        width: 362px;
-        height: 510px;
+        width: 22.625rem;
+        height: 31.875rem;
         display: grid;
         place-items: center;
         position: relative;            
@@ -38,13 +38,13 @@ export const ProjectContainer = styled.section`
     .container::before{
         content: "";
         position: absolute;
-        width: 650px;
-        height: 180px;
+        width: 40.625rem;
+        height: 11.25rem;
         top: 5px;
         right: 20px;
         transition: 1.9s;
         background-color: rgba(50,146,248,0.73);
-        transform: rotate(-45deg) translate(0,-160px);
+        transform: rotate(-45deg) translate(0,-16rem);
        
     }
     .container:hover::before{
@@ -54,8 +54,64 @@ export const ProjectContainer = styled.section`
     @keyframes cardEffect {
         100%{
             
-            transform: rotate(-45deg) translate(0,600px);
+            transform: rotate(-45deg) translate(0,37.5rem);
         }
     }
+
+
+
+    // Media Queries 
+
+    @media (max-width:800px){
+     
+        .Cards{
+            grid-template-columns: repeat(2,1fr);
+        }
+
+        .container{
+            width: 20.625rem;
+            height: 32.875rem;
+
+        }
+
+        .container::before{
+            width: 41.625rem;
+            height: 13.25rem;  
+            top: 10px;
+        }
+
+        @keyframes cardEffect {
+        100%{
+            
+            transform: rotate(-45deg) translate(0,38.5rem);
+        }
+    }
+    
+    }
+
+    @media (max-width:490px) {
+        .Cards{
+            grid-template-columns: repeat(1,1fr);
+        }
+
+        .container{
+            width: 22.625rem;
+            height: 32.875rem;
+
+        }
+
+        .container::before{
+            width: 41.625rem;
+            height: 13.25rem;  
+            top: 10px;
+        }
+
+        @keyframes cardEffect {
+        100%{
+            
+            transform: rotate(-45deg) translate(0,38.5rem);
+        }
+    }
+}
 
 `

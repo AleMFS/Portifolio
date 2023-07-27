@@ -31,5 +31,29 @@ export const FooterContainer = styled.footer`
         }
     
 
+        // Media Queries 
+
+        @media (max-width:800px){
+
+            p{
+                font-size: 1.2rem;
+            }
+            h3{
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width:800px){
+            width: 90%;
+            
+            p{
+                font-size: 1.2rem;
+                padding: 0 1.5rem;
+            }
+            h3{
+                font-size: 0.7rem;
+            }
+        }
+
    
 `

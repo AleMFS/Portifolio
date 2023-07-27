@@ -30,6 +30,18 @@ export const SkillContainer = styled.div`
     }
 
     
-    
+    // Media Queries
+
+    @media(max-width:800px){
+
+        width: 12rem;
+
+        img{
+            width: 3rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
 
 `

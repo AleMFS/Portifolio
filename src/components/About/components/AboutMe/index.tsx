@@ -1,4 +1,4 @@
-import { AboutMeContainer, Resume } from "./AboutMeStyles";
+import { AboutMeContainer, Resume } from "./styles";
 import CV from '../../../../assets/AlexandreCV.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
