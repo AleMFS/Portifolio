@@ -45,7 +45,7 @@ export const AboutContainer = styled.header`
 
     .arrow{
         font-size: 1.5rem;
-        margin-top: 1rem;
+        margin-top: 5rem;
     }
 
 }
