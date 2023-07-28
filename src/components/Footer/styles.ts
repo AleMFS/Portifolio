@@ -5,7 +5,7 @@ export const FooterContainer = styled.footer`
         margin: 6rem auto 4rem;
         border-bottom: 3px solid ${(props) => props.theme.primary};
         
-        .contact{
+        #Contato{
             display: flex;
             justify-content: space-between;
             margin-bottom: 3rem;

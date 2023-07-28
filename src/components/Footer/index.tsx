@@ -6,7 +6,7 @@ import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 export function Footer() {
     return (
         <FooterContainer>
-            <div className="contact">
+            <div id="Contato">
                 <div className="links">
                     <a href="https://github.com/AleMFS" target="_blank">
                         <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>

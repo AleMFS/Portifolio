@@ -35,6 +35,7 @@ export function About({ themeToggler }: ChangeTheme) {
       const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: 'smooth' });
       setActiveTab(sectionId);
+      handleMenu()
     }
   };
 
@@ -129,7 +130,7 @@ export function About({ themeToggler }: ChangeTheme) {
               <li onClick={() => smoothScrollToSection("Sobre")} className={activeTab === "Sobre" ? 'active' : ''} >Sobre</li>
               <li onClick={() => smoothScrollToSection("Conhecimentos")} className={activeTab === "Conhecimentos" ? 'active' : ''}>Conhecimentos</li>
               <li onClick={() => smoothScrollToSection("Projetos")} className={activeTab === "Projetos" ? 'active' : ''}>Projetos</li>
-              {/*<li onClick={() => smoothScrollToSection("Contato")} className={activeTab === "Contato" ? 'active' : ''}>Contato</li>*/}
+              <li onClick={() => smoothScrollToSection("Contato")} className={activeTab === "Contato" ? 'active' : ''}>Contato</li>
             </nav>
           </div>
 
