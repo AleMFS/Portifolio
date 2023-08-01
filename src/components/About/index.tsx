@@ -23,6 +23,8 @@ export function About({ themeToggler }: ChangeTheme) {
     theme === "light" ? setTheme("dark") : setTheme("light");
   }
 
+ 
+
   // mudar sessão
   const [activeTab, setActiveTab] = useState('Sobre');
 

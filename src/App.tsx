@@ -19,9 +19,9 @@ function App() {
   return (
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyle />
-      <About themeToggler={themeToggler}/>
-      <Skills theme={theme}/>
       
+      <About themeToggler={themeToggler}/>
+      <Skills theme={theme}/>      
       <Project />
       <Footer />  
      

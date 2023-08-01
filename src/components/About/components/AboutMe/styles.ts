@@ -58,6 +58,9 @@ export const AboutMeContainer = styled.section`
     // Media Queries
 
     @media (min-width: 1500px) {
+        .orb{
+            right: 11.125rem;
+        }
 
         .perfil{
             margin-right: 12%;
