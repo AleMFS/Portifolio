@@ -5,6 +5,7 @@ import Coffee from '../assets/projects/Coffee.png'
 import Timer from '../assets/projects/Timer.png'
 import blog from '../assets/projects/GitHubBlog.gif'
 import Todo from '../assets/projects/ToDo.png'
+import Pokedex from '../assets/projects/Pokedex.png'
 
 
 export const tools = [
@@ -50,8 +51,8 @@ export const tools = [
     },
     {
         id: 7,
-        name: 'GitHub',
-        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
+        name: 'Angular',
+        img: 'https://cdn.freebiesupply.com/logos/large/2x/angular-icon-1-logo-svg-vector.svg'
     },
     {
         id: 8,
@@ -69,56 +70,67 @@ export const projects = [
         tag: "REACT",
         repository: "https://github.com/AleMFS/LeagueOfLegends",
         link: "https://projectlolalemfs.vercel.app/"
-    
+
     },
     {
         id: 1,
         name: "Top Ventos",
         about: "Eu criei um projeto chamado TopVentos no qual ele simula uma loja de ventiladores de algumas marcas com suas informações , pensei em fazer esse projeto devido ao calor que está fazendo nesse verão",
         img: TopVentos,
-        tag:"REACT",
+        tag: "REACT",
         repository: "https://github.com/AleMFS/TopVentos",
-        link:"https://topventos.vercel.app/"
+        link: "https://topventos.vercel.app/"
     },
-
-    
     {
         id: 2,
-        name: "Coffee Delivery",
-        about: "Coffee Delivery simula uma E-commerce focado em Cafés, ele conta com carrinho onde você pode adicionar e remover a sua escolha, formulário pde endereço para entrega, ele é totalmente responsivo e conta com filtros",
-        img:  Coffee,
-        tag: "REACT",
-        repository: "https://github.com/AleMFS/Coffee-Delivery" ,
-        link: "https://coffee-deliveryalemfs.vercel.app/"
+        name: "Pokedex",
+        about: "A Pokédex é uma ferramenta que permite aos usuários visualizar informações sobre todos os Pokémons, incluindo seus nomes, tipos, estatísticas, evoluções e habilidades. O projeto é dividido em duas partes:",
+        img: Pokedex,
+        tag: "ANGULAR",
+        repository: "https://github.com/AleMFS/Pokedex-Angular",
+        link: "https://pokedex-angular-flame.vercel.app"
+
     },
+
     {
         id: 3,
+        name: "Coffee Delivery",
+        about: "Coffee Delivery simula uma E-commerce focado em Cafés, ele conta com carrinho onde você pode adicionar e remover a sua escolha, formulário pde endereço para entrega, ele é totalmente responsivo e conta com filtros",
+        img: Coffee,
+        tag: "REACT",
+        repository: "https://github.com/AleMFS/Coffee-Delivery",
+        link: "https://coffee-deliveryalemfs.vercel.app/"
+    },
+
+
+    {
+        id: 4,
         name: "Pomodoro Timer",
-        about:"Um cronomêtro feito com Reactjs, para auxiliar com estudos usando o metodo mundialmente conhecido como Pomodoro.",
+        about: "Um cronomêtro feito com Reactjs, para auxiliar com estudos usando o metodo mundialmente conhecido como Pomodoro.",
         img: Timer,
-        tag:"REACT",
+        tag: "REACT",
         repository: "https://github.com/AleMFS/Pomodoro-Timer",
-        link:"https://github.com/AleMFS/Pomodoro-Timer"
+        link: "https://github.com/AleMFS/Pomodoro-Timer"
 
     },
     {
-        id:4,
+        id: 5,
         name: "Github Blog",
         about: "O Github Blog é uma aplicação web que tem como objetivo mostrar visualmente com um design e layout mais bem elaborado os dados do criador deste aplicação, além das issues presentes neste mesmo repositório no Github, permitindo também a pesquisa por issues específicas.",
-        img:blog,
-        tag:"React/Axios",
+        img: blog,
+        tag: "React/Axios",
         repository: "https://github.com/AleMFS/Github-Blog",
         link: "https://github-blogalemfs.vercel.app/"
     },
     {
-        id:5,
-        name:"Todo List",
+        id: 6,
+        name: "Todo List",
         about: "Criação de lista de tarefas completamente resposiva, com botão delete e concluida. usando alguns conceitos do react como useState e componentes",
-        img:Todo,
+        img: Todo,
         tag: "REACT",
-        repository: "https://github.com/AleMFS/Projeto-To-do",    
-        link:"https://projeto-to-do-omega.vercel.app/"
+        repository: "https://github.com/AleMFS/Projeto-To-do",
+        link: "https://projeto-to-do-omega.vercel.app/"
     }
-  
-    
+
+
 ]
