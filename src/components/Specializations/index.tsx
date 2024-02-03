@@ -6,7 +6,8 @@ export function Specializations(){
             <h2>Especializações</h2>
 
             <div>
-                <p>Análise e Desenvolvimento de Sistemas</p>
+                <p>Análise e Desenvolvimento de SistemasAnálise e Desenvolvimento de Sistemas</p>
+                
             </div>
 
         </SpecializationsContainer>
