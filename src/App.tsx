@@ -7,6 +7,7 @@ import { About } from "./components/About"
 import { Skills } from "./components/Skills"
 import { Project } from "./components/Projects"
 import { Footer } from "./components/Footer"
+import { Specializations } from "./components/Specializations"
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <About themeToggler={themeToggler}/>
       <Skills theme={theme}/>      
       <Project />
+      
       <Footer />  
      
      

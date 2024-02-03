@@ -159,12 +159,14 @@ export const NavigationMobile = styled.div`
     .open{
         position: absolute;
         top: 0;
-        right: 0;
+        right: 0 ;
         display: flex;
         justify-content: center;
         align-items: center;
         z-index: 9 ;
-        transition: all 0.5s;
+        opacity: 1;
+        transition: ease-in-out 0.5s;
+        
 
         >svg{
             display: none;
@@ -179,7 +181,7 @@ export const NavigationMobile = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: ${(props )=> props.theme.bgcard};
+        background: ${(props) => props.theme.bgcard};
         
         gap: 1rem;
 
@@ -192,7 +194,7 @@ export const NavigationMobile = styled.div`
                 overflow: hidden;
                 transition: color 0.3s ease-in-out, border-width 0.3s ease-in-out;
                 padding-bottom: 0.5rem;
-                color: ${(props )=> props.theme.primary};
+                color: ${(props) => props.theme.primary};
 
             }
 
@@ -239,8 +241,23 @@ export const NavigationMobile = styled.div`
         
     }
     .close{
-        display: none;
+        
+        opacity:0 ;
+        position: absolute;
+        top: 0;
+        right: -200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9 ;
+       
+       
+        
+       
     }
+   
+   
+
 
 
 `

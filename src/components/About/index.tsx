@@ -17,13 +17,14 @@ export function About({ themeToggler }: ChangeTheme) {
   const [theme, setTheme] = useState('dark');
   const [scrollNav, setScrollNav] = useState(false);
   const [hamburguer, setHamburguer] = useState(false)
+  const [desactive, setDesactive] = useState('')
 
   const handleChangeTheme = () => {
     themeToggler()
     theme === "light" ? setTheme("dark") : setTheme("light");
   }
 
- 
+
 
   // mudar sessão
   const [activeTab, setActiveTab] = useState('Sobre');
@@ -85,8 +86,24 @@ export function About({ themeToggler }: ChangeTheme) {
 
   }
 
+  function limparDiv() {
+    setTimeout(() => {
+      if (hamburguer) {
+        setDesactive('DesativeDiv')
+      }     
+    }, 500);
+  }
+
   function handleMenu() {
+    if(!hamburguer){
+      setDesactive('')
+    }
     setHamburguer(!hamburguer)
+
+    
+    limparDiv()
+   
+
 
   }
 
@@ -96,7 +113,7 @@ export function About({ themeToggler }: ChangeTheme) {
       <HeaderContainer className={`${scrollNav ? "scroll-header" : ""}`}>
         <img src={theme === 'dark' ? LogoD : scrollNav ? LogoD : LogoL} alt="" onClick={() => scrollToTop()} />
 
-      < Navigation className="open">
+        < Navigation className="open">
           <nav>
             <button>
               <FontAwesomeIcon icon={faX} size="2x" className="buttonX"></FontAwesomeIcon>
@@ -104,6 +121,7 @@ export function About({ themeToggler }: ChangeTheme) {
             <li onClick={() => smoothScrollToSection("Sobre")} className={activeTab === "Sobre" ? 'active' : ''} >Sobre</li>
             <li onClick={() => smoothScrollToSection("Conhecimentos")} className={activeTab === "Conhecimentos" ? 'active' : ''}>Conhecimentos</li>
             <li onClick={() => smoothScrollToSection("Projetos")} className={activeTab === "Projetos" ? 'active' : ''}>Projetos</li>
+            <li onClick={() => smoothScrollToSection("Projetos")} className={activeTab === "Projetos" ? 'active' : ''}>Especializações</li>
             <li onClick={() => smoothScrollToSection("Contato")} className={activeTab === "Contato" ? 'active' : ''}>Contato</li>
           </nav>
 
@@ -124,7 +142,7 @@ export function About({ themeToggler }: ChangeTheme) {
             <Moon size={50} onClick={() => handleChangeTheme()} />
           }
 
-          <div className={hamburguer ? 'open': 'close'}>
+          <div className={`${hamburguer ? 'open' : 'close'} ${desactive}`}>
             <nav>
               <button>
                 <FontAwesomeIcon icon={faX} size="2x" className="buttonX" onClick={() => handleMenu()}></FontAwesomeIcon>
@@ -132,6 +150,7 @@ export function About({ themeToggler }: ChangeTheme) {
               <li onClick={() => smoothScrollToSection("Sobre")} className={activeTab === "Sobre" ? 'active' : ''} >Sobre</li>
               <li onClick={() => smoothScrollToSection("Conhecimentos")} className={activeTab === "Conhecimentos" ? 'active' : ''}>Conhecimentos</li>
               <li onClick={() => smoothScrollToSection("Projetos")} className={activeTab === "Projetos" ? 'active' : ''}>Projetos</li>
+              <li onClick={() => smoothScrollToSection("Projetos")} className={activeTab === "Projetos" ? 'active' : ''}>Especializações</li>
               <li onClick={() => smoothScrollToSection("Contato")} className={activeTab === "Contato" ? 'active' : ''}>Contato</li>
             </nav>
           </div>

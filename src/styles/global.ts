@@ -25,6 +25,7 @@ export const GlobalStyle = createGlobalStyle`
         transition: .5s;
         font-size: 1rem;
         //padding: 2rem 3rem;
+        overflow-x: hidden;
         
 
        
