@@ -57,7 +57,7 @@ export function Specializations() {
                 </CursoCard>
                 <CursoCard>
                     <TitleCard onClick={() => toggleDiv(2)}>
-                        <h3>Curso B7web Html e Csst</h3>
+                        <h3>Curso B7web Html e Css3</h3>
                         <FontAwesomeIcon icon={faChevronDown}  size="xl" className="arrow" ></FontAwesomeIcon>
                     </TitleCard>
                     <InfoContainer open={items[1].isOpen}>
