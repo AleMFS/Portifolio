@@ -70,7 +70,7 @@ export function About({ themeToggler }: ChangeTheme) {
 
   // Função para atualizar o item de menu ativo ao rolar a página
   const updateActiveTabOnScroll = () => {
-    const sections = ['Sobre', 'Conhecimentos', 'Projetos', 'Contato'];
+    const sections = ['Sobre', 'Conhecimentos', 'Projetos','Cursos', 'Contato'];
 
     // Encontra a seção que está atualmente visível na janela
     for (const sectionId of sections) {
@@ -121,7 +121,7 @@ export function About({ themeToggler }: ChangeTheme) {
             <li onClick={() => smoothScrollToSection("Sobre")} className={activeTab === "Sobre" ? 'active' : ''} >Sobre</li>
             <li onClick={() => smoothScrollToSection("Conhecimentos")} className={activeTab === "Conhecimentos" ? 'active' : ''}>Conhecimentos</li>
             <li onClick={() => smoothScrollToSection("Projetos")} className={activeTab === "Projetos" ? 'active' : ''}>Projetos</li>
-            <li onClick={() => smoothScrollToSection("Projetos")} className={activeTab === "Projetos" ? 'active' : ''}>Especializações</li>
+            <li onClick={() => smoothScrollToSection("Cursos")} className={activeTab === "Cursos" ? 'active' : ''}>Especializações</li>
             <li onClick={() => smoothScrollToSection("Contato")} className={activeTab === "Contato" ? 'active' : ''}>Contato</li>
           </nav>
 
@@ -150,7 +150,7 @@ export function About({ themeToggler }: ChangeTheme) {
               <li onClick={() => smoothScrollToSection("Sobre")} className={activeTab === "Sobre" ? 'active' : ''} >Sobre</li>
               <li onClick={() => smoothScrollToSection("Conhecimentos")} className={activeTab === "Conhecimentos" ? 'active' : ''}>Conhecimentos</li>
               <li onClick={() => smoothScrollToSection("Projetos")} className={activeTab === "Projetos" ? 'active' : ''}>Projetos</li>
-              <li onClick={() => smoothScrollToSection("Projetos")} className={activeTab === "Projetos" ? 'active' : ''}>Especializações</li>
+              <li onClick={() => smoothScrollToSection("Cursos")} className={activeTab === "Cursos" ? 'active' : ''}>Especializações</li>
               <li onClick={() => smoothScrollToSection("Contato")} className={activeTab === "Contato" ? 'active' : ''}>Contato</li>
             </nav>
           </div>

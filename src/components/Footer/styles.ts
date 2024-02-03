@@ -2,8 +2,9 @@ import { styled } from "styled-components";
 
 export const FooterContainer = styled.footer`
         width: 85%;
-        margin: 6rem auto 4rem;
+        margin: 0 auto 4rem;
         border-bottom: 3px solid ${(props) => props.theme.primary};
+        padding-top: 19rem;
         
         #Contato{
             display: flex;
