@@ -69,8 +69,8 @@ export function Specializations() {
                         <InfoCard>
                             <FontAwesomeIcon icon={faMinus} size="xl" className="arrow" ></FontAwesomeIcon>
                             <InfoData>
-                                <InfoTexts>Início: 06/21</InfoTexts>
-                                <InfoTexts>Término: 10/21</InfoTexts>
+                                <InfoTexts>Início: 07/22</InfoTexts>
+                                <InfoTexts>Término: 08/22</InfoTexts>
                             </InfoData>
                         </InfoCard>
                         <InfoCard>
@@ -96,14 +96,14 @@ export function Specializations() {
                         <InfoCard>
                             <FontAwesomeIcon icon={faMinus} size="xl" className="arrow" ></FontAwesomeIcon>
                             <InfoData>
-                                <InfoTexts>Início: 06/21</InfoTexts>
-                                <InfoTexts>Término: 10/21</InfoTexts>
+                                <InfoTexts>Início: 07/22</InfoTexts>
+                                <InfoTexts>Término: 08/22</InfoTexts>
                             </InfoData>
                         </InfoCard>
                         <InfoCard>
                             <FontAwesomeIcon icon={faMinus} size="xl" className="arrow" ></FontAwesomeIcon>
                             <InfoData>
-                                <InfoTexts><a target="_blank" href="">Certificado</a></InfoTexts>
+                                <InfoTexts><a target="_blank" href="https://alunos.b7web.com.br/media/certificates/certificado_7505910.jpg">Certificado</a></InfoTexts>
                             </InfoData>
                         </InfoCard>
                     </InfoContainer>
@@ -187,7 +187,7 @@ export function Specializations() {
                         <InfoCard>
                             <FontAwesomeIcon icon={faMinus} size="xl" className="arrow" ></FontAwesomeIcon>
                             <InfoData>
-                                <InfoTexts><a target="_blank" href="">Certificado</a></InfoTexts>
+                                <InfoTexts><a target="_blank" href="https://www.dio.me/certificate/D54BCFE7/share">Certificado</a></InfoTexts>
                             </InfoData>
                         </InfoCard>
                     </InfoContainer>
