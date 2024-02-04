@@ -62,6 +62,7 @@ export const HeaderContainer = styled.header`
     padding: 2rem 3rem;
     transition: all 0.5s;
     position: relative;
+    overflow-x: hidden;
     
       
     
@@ -155,6 +156,7 @@ export const NavigationMobile = styled.div`
     display: flex;
     align-items: center;
     gap: 2rem;
+    
 
 
     .open{
