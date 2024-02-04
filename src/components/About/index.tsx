@@ -134,12 +134,12 @@ export function About({ themeToggler }: ChangeTheme) {
 
         <NavigationMobile>
 
-          <List size={50} onClick={() => handleMenu()} />
+          <List size={40} onClick={() => handleMenu()} />
 
           {theme === 'dark' ?
-            <Sun size={50} onClick={() => handleChangeTheme()} />
+            <Sun size={40} onClick={() => handleChangeTheme()} />
             :
-            <Moon size={50} onClick={() => handleChangeTheme()} />
+            <Moon size={40} onClick={() => handleChangeTheme()} />
           }
 
           <div className={`${hamburguer ? 'open' : 'close'} ${desactive}`}>
