@@ -1,5 +1,5 @@
 
-import LOL from '../assets/projects/LOL.png'
+import LOL from '../assets/projects/LOL.gif'
 import TopVentos from '../assets/projects/TopVentos.png'
 import Coffee from '../assets/projects/Coffee.png'
 import Timer from '../assets/projects/Timer.png'
@@ -30,27 +30,27 @@ export const tools = [
         img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'
     },
     {
-        id: 11,
+        id: 4,
         name: "Vue",
         img: "https://vuejs.org/images/logo.png"
     },
     {
-        id: 4,
+        id: 5,
         name: 'ReactJs',
         img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
     },
     {
-        id: 12,
+        id: 6,
         name: 'NextJs',
         img: 'https://i.pinimg.com/564x/e3/82/52/e3825274a94bafc3f0282cae29c19972.jpg'
     },
     {
-        id: 4,
+        id: 7,
         name: 'React Native',
         img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
     },
     {
-        id: 7,
+        id: 8,
         name: 'Angular',
         img: 'https://cdn.freebiesupply.com/logos/large/2x/angular-icon-1-logo-svg-vector.svg'
     },
@@ -66,23 +66,23 @@ export const tools = [
     },
    
     {
-        id: 5,
+        id: 11,
         name: 'Java',
         img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'
     },
     {
-        id: 6,
+        id: 12,
         name: 'SpringBoot',
         img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg'
     },
    
     {
-        id: 8,
+        id: 13,
         name: 'MySQL',
         img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'
     },
     {
-        id: 13,
+        id: 14,
         name: 'SQLite',
         img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/1200px-Sqlite-square-icon.svg.png'
     },

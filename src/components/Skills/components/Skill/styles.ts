@@ -9,6 +9,7 @@ export const SkillContainer = styled.div`
     align-items: center;
     gap: .8rem;
     width: 10rem;
+    height: 4rem;
 
     border: 2px solid ${(props)=> props.theme.secondary};
     border-radius: 25px;
@@ -21,6 +22,8 @@ export const SkillContainer = styled.div`
 
     img{
         width: 2rem;
+        
+       
     }
     &:hover{
         
@@ -37,7 +40,7 @@ export const SkillContainer = styled.div`
         width: 12rem;
 
         img{
-            width: 3rem;
+            width: 2rem;
         }
         p{
             font-size: 1.2rem;

@@ -4,7 +4,7 @@ export const FooterContainer = styled.footer`
         width: 85%;
         margin: 0 auto 4rem;
         border-bottom: 3px solid ${(props) => props.theme.primary};
-        padding-top: 19rem;
+        padding-top: 10rem;
         
         #Contato{
             display: flex;
