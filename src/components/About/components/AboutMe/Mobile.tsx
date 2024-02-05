@@ -2,7 +2,7 @@ import { MobileContainer } from "./styles";
 import CV from '../../../../assets/AlexandreCV.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedinIn,faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Teste from '../../../../assets/teste.png'
 import Orbe from "../../../../assets/orbe2.png"
 
@@ -20,8 +20,8 @@ export function Mobile() {
                 <img src={Orbe} alt="" className="globo" />
             </div>
             <p className="resumo">
-                Focado em construir minha carreira como Desenvolvedor FullStack, tenho conhecimento em Java e ReactJS.
-                Busco sempre melhorar e alcançar meus objetivos. Estou determinado a alcançar novos níveis de sucesso em minha jornada profissional.
+                Comprometido com o desenvolvimento de minha carreira como Desenvolvedor FullStack, possuo expertise em Java, ReactJS, Vue.js, Spring Boot entre outras. Constantemente busco aprimorar minhas habilidades e
+                atingir metas ambiciosas. Estou determinado a alcançar novos patamares de sucesso em minha jornada profissional, explorando as mais recentes tecnologias e práticas para oferecer soluções inovadoras e eficientes.
             </p>
             <div className="socialMedia">
                 <div className="links">

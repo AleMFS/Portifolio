@@ -16,8 +16,8 @@ export function AboutMe() {
                 <h5>Olá, eu <span>sou</span> </h5>
                 <h2><span>Alexandre </span>Santos</h2>
                 <h4>Desenvolvedor FullStack </h4>
-                <p>Focado em construir minha carreira como Desenvolvedor FullStack, tenho conhecimento em Java e ReactJS.
-                    Busco sempre melhorar e alcançar meus objetivos. Estou determinado a alcançar novos níveis de sucesso em minha jornada profissional. </p>
+                <p>Comprometido com o desenvolvimento de minha carreira como Desenvolvedor FullStack, possuo expertise em Java, ReactJS, Vue.js, Spring Boot entre outras. Constantemente busco aprimorar minhas habilidades e 
+                    atingir metas ambiciosas. Estou determinado a alcançar novos patamares de sucesso em minha jornada profissional, explorando as mais recentes tecnologias e práticas para oferecer soluções inovadoras e eficientes.</p>
                 <div className="socialMedia">
                     <div className="links">
                         <a href="https://github.com/AleMFS" target="_blank">
