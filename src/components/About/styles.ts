@@ -167,9 +167,9 @@ export const NavigationMobile = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        z-index: 9 ;
-        opacity: 1;
+        z-index: 9 ;        
         transition: ease-in-out 0.5s;
+        opacity: 1;
         
 
         >svg{
@@ -250,17 +250,19 @@ export const NavigationMobile = styled.div`
         position: absolute;
         top: 0;
         right: -200px;
-        display: flex;
+        
         justify-content: center;
         align-items: center;
         z-index: 9 ;
-       
+        
+        
        
         
        
     }
    
-   
+    
+
 
 
 

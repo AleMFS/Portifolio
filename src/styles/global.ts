@@ -18,6 +18,9 @@ export const GlobalStyle = createGlobalStyle`
        
 
     }
+    body, html {
+  overflow-x: hidden;
+}
 
     body{
         background: ${(props) => props.theme.background};
