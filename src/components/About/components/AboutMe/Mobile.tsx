@@ -20,8 +20,8 @@ export function Mobile() {
                 <img src={Orbe} alt="" className="globo" />
             </div>
             <p className="resumo">
-                Comprometido com o desenvolvimento de minha carreira como Desenvolvedor FullStack, possuo expertise em Java, ReactJS, Vue.js, Spring Boot entre outras. Constantemente busco aprimorar minhas habilidades e
-                atingir metas ambiciosas. Estou determinado a alcançar novos patamares de sucesso em minha jornada profissional, explorando as mais recentes tecnologias e práticas para oferecer soluções inovadoras e eficientes.
+                Comprometido em construir minha carreira como Desenvolvedor FullStack, tenho experiência em Java, ReactJS, Vue.js e Spring Boot.
+                Busco constantemente aprimorar minhas habilidades para atingir novos níveis de sucesso em minha jornada profissional.
             </p>
             <div className="socialMedia">
                 <div className="links">

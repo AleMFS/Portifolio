@@ -157,6 +157,8 @@ export const Resume = styled.div`
     }    
 `
 
+// MOBILE
+
 
 export const MobileContainer = styled.div`
     display: flex;
