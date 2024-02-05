@@ -26,11 +26,22 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 1rem;
         //padding: 2rem 3rem;
         overflow-x: hidden;
-        
-
-       
+      
+    
         
     }
+
+    ::-webkit-scrollbar {
+    width: .8rem;
+  }
+  ::-webkit-scrollbar-track {
+    background: #CCC;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-bottom-left-radius:2rem;
+    border-bottom-right-radius:2rem;
+    background: #0ca5d4;
+  }
 
 `
 
