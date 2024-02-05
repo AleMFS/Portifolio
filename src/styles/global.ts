@@ -26,9 +26,9 @@ export const GlobalStyle = createGlobalStyle`
         transition: .5s;
         font-size: 1rem;
         //padding: 2rem 3rem;
-        overflow-y: hidden;
        
-      
+       
+        overflow-x: hidden;
     
         
     }
