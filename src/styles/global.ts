@@ -28,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
         //padding: 2rem 3rem;
        
        
-        overflow-x: hidden;
+        
     
         
     }

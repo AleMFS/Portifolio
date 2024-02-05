@@ -142,7 +142,7 @@ export function About({ themeToggler }: ChangeTheme) {
             <Moon size={35} onClick={() => handleChangeTheme()} />
           }
 
-          <div className={`${hamburguer ? 'open' : 'close'} ${desactive}`}>
+          <div className={`${hamburguer ? 'open' : 'close'} ${desactive}`} style={{overflowX:'hidden'}}>
             <nav>
               <button>
                 <FontAwesomeIcon icon={faX} size="2x" className="buttonX" onClick={() => handleMenu()}></FontAwesomeIcon>
