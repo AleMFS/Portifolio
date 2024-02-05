@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        
     }
     html{
         @media (max-width:1160px) {
@@ -25,7 +26,8 @@ export const GlobalStyle = createGlobalStyle`
         transition: .5s;
         font-size: 1rem;
         //padding: 2rem 3rem;
-        overflow-x: hidden;
+        overflow-y: hidden;
+       
       
     
         
