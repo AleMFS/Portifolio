@@ -233,6 +233,8 @@ export const NavigationMobile = styled.div`
                 border: none;
                 color: ${(props) => props.theme.primary};
                 display: block;
+                
+                
 
                 svg{
                     background-color: transparent;
